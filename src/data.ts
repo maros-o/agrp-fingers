@@ -32,4 +32,5 @@ export const scores: ScoreData[] = [
   { name: "Zdeněk Růžička", team: "CRM", score: 26 },
   { name: "Patrik Szewczyk", team: "DATIFY", score: 60 },
   { name: "Jan Řehák", team: "HR", score: 93, fingers: 8 },
+  { name: "Martin Rešovský", team: "DATIFY", score: 78, fingers: 9 },
 ];
