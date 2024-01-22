@@ -1,21 +1,32 @@
+const teamOptions = [
+  "DATA OFFICE",
+  "CODEXIS",
+  "DATIFY",
+  "MDSO",
+  "CRM",
+] as const;
+
+export type Team = (typeof teamOptions)[number];
+
 export type ScoreData = {
   name: string;
   score: number;
   fingers?: number;
+  team?: Team;
 };
 
 export const scores: ScoreData[] = [
-  { name: "Vojtěch Kosa", score: 121, fingers: 8 },
-  { name: "Christian Krutsche", score: 83, fingers: 7 },
-  { name: "Maroš Mečiar", score: 82, fingers: 3 },
-  { name: "Tomáš Řehák", score: 62 },
-  { name: "Marek Svatoš", score: 92 },
-  { name: "Josef Swaczyna", score: 37, fingers: 7 },
-  { name: "Jiří Herold", score: 48, fingers: 5 },
-  { name: "Dan Stržínek", score: 32, fingers: 2 },
-  { name: "Jiří Krokviak", score: 92, fingers: 20 },
-  { name: "Silvie Staníková", score: 32, fingers: 8 },
-  { name: "Jiří Kadlčík", score: 56 },
-  { name: "Tomáš Věncek", score: 59 },
-  { name: "Zdeněk Růžička", score: 26 },
+  { name: "Vojtěch Kosa", team: "DATA OFFICE", score: 121, fingers: 8 },
+  { name: "Christian Krutsche", team: "DATIFY", score: 83, fingers: 7 },
+  { name: "Maroš Mečiar", team: "DATA OFFICE", score: 82, fingers: 3 },
+  { name: "Tomáš Řehák", team: "CODEXIS", score: 62 },
+  { name: "Marek Svatoš", team: "DATIFY", score: 92 },
+  { name: "Josef Swaczyna", team: "DATA OFFICE", score: 37, fingers: 7 },
+  { name: "Jiří Herold", team: "DATA OFFICE", score: 48, fingers: 5 },
+  { name: "Dan Stržínek", team: "CRM", score: 32, fingers: 2 },
+  { name: "Jiří Krokviak", team: "CODEXIS", score: 92, fingers: 20 },
+  { name: "Silvie Staníková", team: "CODEXIS", score: 32, fingers: 8 },
+  { name: "Jiří Kadlčík", team: "MDSO", score: 56 },
+  { name: "Tomáš Věncek", team: "CRM", score: 59 },
+  { name: "Zdeněk Růžička", team: "CRM", score: 26 },
 ];
