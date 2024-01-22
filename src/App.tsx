@@ -8,11 +8,11 @@ const ScoreTable: React.FC = () => {
       <a
         href="https://10fastfingers.com/typing-test/english"
         target="_blank"
-        className="text-white/90 absolute top-[206px] text-[20px] tracking-wide hover:text-[#29df2c] transition-all duration-300 animate-pulse"
+        className="text-white/90 absolute top-[80px] text-[20px] tracking-wide hover:text-[#29df2c] transition-all duration-300 animate-pulse"
       >
         10fastfingers.com
       </a>
-      <div className="absolute top-[140px] text-[50px] text-[#29df2c] font-extrabold">
+      <div className="absolute top-[10px] text-[50px] text-[#29df2c] font-extrabold">
         <span>AGRP</span>.<span>DEV</span>
       </div>
       <div className="container text-center">
