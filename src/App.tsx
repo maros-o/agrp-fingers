@@ -105,7 +105,7 @@ function App() {
       >
         10fastfingers.com
       </a>
-      <div className="container text-center my-[100px]">
+      <div className="container text-center my-[148px]">
         <TyperTable />
       </div>
       <div className="container text-center mb-[100px]">
