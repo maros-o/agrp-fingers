@@ -4,6 +4,7 @@ export const teamOptions = [
   "DATIFY",
   "MDSO",
   "CRM",
+  "HR",
 ] as const;
 
 export type Team = (typeof teamOptions)[number];
@@ -30,4 +31,5 @@ export const scores: ScoreData[] = [
   { name: "Tomáš Věnsek", team: "CRM", score: 59 },
   { name: "Zdeněk Růžička", team: "CRM", score: 26 },
   { name: "Patrik Szewczyk", team: "DATIFY", score: 60 },
+  { name: "Jan Řehák", team: "HR", score: 93, fingers: 8 },
 ];
