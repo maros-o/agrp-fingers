@@ -43,7 +43,9 @@ const ScoreTable: React.FC = () => {
                 >
                   {row.score}
                 </td>
-                <td className="py-2 px-4 w-[20%] text-center">{row.fingers}</td>
+                <td className="py-2 px-4 w-[20%] text-center">
+                  {row.fingers ?? "-"}
+                </td>
               </tr>
             ))}
           </tbody>
