@@ -15,7 +15,7 @@ const ScoreTable: React.FC = () => {
       <div className="absolute top-[10px] text-[50px] text-[#29df2c] font-extrabold">
         <span>AGRP</span>.<span>DEV</span>
       </div>
-      <div className="container text-center overflow-y-scroll-auto overflow-hidden max-h-[70%]">
+      <div className="container text-center">
         <table className="min-w-full font-consolas text-white/90 text-[18px]">
           <thead className="text-[#29df2c] font-bold text-[36px] tracking-wide">
             <tr>
