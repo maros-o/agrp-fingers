@@ -25,7 +25,7 @@ export const scores: ScoreData[] = [
   { name: "Marek Svatoš", team: "DATIFY", score: 92 },
   { name: "Josef Swaczyna", team: "DATA OFFICE", score: 37, fingers: 7 },
   { name: "Jiří Herold", team: "DATA OFFICE", score: 48, fingers: 5 },
-  { name: "Dan Stržínek", team: "CRM", score: 32, fingers: 2 },
+  { name: "Dan Stržínek", team: "CRM", score: 32, fingers: 3 },
   { name: "Jiří Krokviak", team: "CODEXIS", score: 92, fingers: 20 },
   { name: "Silvie Staníková", team: "CODEXIS", score: 32, fingers: 8 },
   { name: "Jiří Kadlčík", team: "MDSO", score: 56 },
