@@ -1,4 +1,4 @@
-const teamOptions = [
+export const teamOptions = [
   "DATA OFFICE",
   "CODEXIS",
   "DATIFY",
