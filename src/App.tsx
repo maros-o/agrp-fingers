@@ -19,8 +19,8 @@ const ScoreTable: React.FC = () => {
         <table className="min-w-full font-consolas text-white/90 text-[18px]">
           <thead className="text-[#29df2c] font-bold text-[36px] tracking-wide">
             <tr>
-              <th className="py-2 px-4">RANKING</th>
-              <th className="py-2 px-4">NAME</th>
+              <th className="py-2 px-4">RANK</th>
+              <th className="py-2 px-4">TYPER</th>
               <th className="py-2 px-4">SCORE</th>
               <th className="py-2 px-4">FINGERS</th>
             </tr>
@@ -34,9 +34,9 @@ const ScoreTable: React.FC = () => {
                 <td className="py-2 px-4 w-[10%] text-center border-r font-bold">
                   {index + 1}.
                 </td>
-                <td className="py-2 px-4 w-[50%] text-center border-r">
+                <td className="py-2 px-4 w-[50%] text-center border-r relative">
                   {row.name.toUpperCase()}
-                  <span className="text-[#29df2c6b] absolute ps-2">
+                  <span className="text-[#29df2c6b] absolute left-2">
                     ({row.team?.toUpperCase()})
                   </span>
                 </td>
