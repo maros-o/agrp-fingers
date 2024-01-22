@@ -17,12 +17,12 @@ const ScoreTable: React.FC = () => {
       </div>
       <div className="container text-center">
         <table className="min-w-full font-consolas text-white/90 text-[18px]">
-          <thead className="text-[#29df2c] font-bold text-[36px]">
+          <thead className="text-[#29df2c] font-bold text-[36px] tracking-wide">
             <tr>
-              <th className="py-2 px-4">Ranking</th>
-              <th className="py-2 px-4">Name</th>
-              <th className="py-2 px-4">Score</th>
-              <th className="py-2 px-4">Fingers</th>
+              <th className="py-2 px-4">RANKING</th>
+              <th className="py-2 px-4">NAME</th>
+              <th className="py-2 px-4">SCORE</th>
+              <th className="py-2 px-4">FINGERS</th>
             </tr>
           </thead>
           <tbody className="border">
@@ -35,7 +35,7 @@ const ScoreTable: React.FC = () => {
                   {index + 1}.
                 </td>
                 <td className="py-2 px-4 w-[50%] text-center border-r">
-                  {row.name}
+                  {row.name.toUpperCase()}
                 </td>
                 <td
                   className={`
