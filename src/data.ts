@@ -20,7 +20,7 @@ export type ScoreData = {
 
 export const scores: ScoreData[] = [
   { name: "Vojtěch Kosa", team: "DATA OFFICE", score: 121, fingers: 8 },
-  { name: "Christian Krutsche", team: "DATIFY", score: 91, fingers: 7 },
+  { name: "Christian Krutsche", team: "DATIFY", score: 95, fingers: 8 },
   { name: "Maroš Mečiar", team: "DATA OFFICE", score: 83, fingers: 3 },
   { name: "Tomáš Řehák", team: "CODEXIS", score: 62 },
   { name: "Marek Svatoš", team: "DATIFY", score: 92 },
