@@ -39,4 +39,5 @@ export const scores: ScoreData[] = [
   { name: "Viktor Horáček", team: "MDSO", score: 75, fingers: 8 },
   { name: "Jakub Ehrenberger", team: "GRAFIK", score: 71, fingers: 10 },
   { name: "Anna Řeháková", team: "HR", score: 42, fingers: 8 },
+  { name: "Marek Moravec", team: "DATA OFFICE", score: 76, fingers: 10 }
 ];
